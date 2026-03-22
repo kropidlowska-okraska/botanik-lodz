@@ -1,4 +1,5 @@
 import { AportSection } from "@/components/site/AportSection";
+import { CommunityGallerySection } from "@/components/site/CommunityGallerySection";
 import { HeroSection } from "@/components/site/HeroSection";
 import { OppositionSection } from "@/components/site/OppositionSection";
 import { PetitionCtaButton } from "@/components/site/PetitionCtaButton";
@@ -12,6 +13,7 @@ import { SkipLink } from "@/components/site/SkipLink";
 const navLinks = [
   { href: "#plan", label: "Start" },
   { href: "#sprzeciw", label: "Stanowiska naukowe" },
+  { href: "#galeria", label: "Galeria" },
   { href: "#petycja", label: "Petycja" },
   { href: "#aport", label: "Aport" },
   { href: "#kontakt", label: "Kontakt" },
@@ -164,6 +166,8 @@ export default function Home() {
               },
             ]}
           />
+
+          <CommunityGallerySection id="galeria" headingId="h-galeria" />
 
           <PetitionSection />
 
