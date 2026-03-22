@@ -1,6 +1,11 @@
+import type { StanceDocument } from "./StanceDocumentsToggle";
+import { StanceDocumentsToggle } from "./StanceDocumentsToggle";
+
 export type OppositionItem = {
   title: string;
   body: string;
+  /** Opcjonalne skany dokumentu (np. oświadczenie) - przycisk „Zobacz stanowisko”. */
+  stanceDocuments?: StanceDocument[];
 };
 
 type NumberedCardProps = {
@@ -18,7 +23,14 @@ export function NumberedCard({ index, entry }: NumberedCardProps) {
       <p className="text-sm font-bold uppercase tracking-wide text-accent-lime sm:text-base">
         {index + 1}. {entry.title}
       </p>
-      <p className="mt-3 text-base leading-relaxed text-white/90">{entry.body}</p>
+      {entry.stanceDocuments?.length ? (
+        <StanceDocumentsToggle
+          documents={entry.stanceDocuments}
+          body={entry.body}
+        />
+      ) : (
+        <p className="mt-3 text-base leading-relaxed text-white/90">{entry.body}</p>
+      )}
     </li>
   );
 }

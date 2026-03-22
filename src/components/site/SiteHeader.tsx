@@ -73,7 +73,7 @@ export function SiteHeader({
           <div className="relative h-full w-12 shrink-0 sm:w-14">
             <Image
               src={logoSrc}
-              alt={`${brandName} — logo`}
+              alt={`${brandName} - logo`}
               fill
               className="object-contain object-left"
               sizes="56px"

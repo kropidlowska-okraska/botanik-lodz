@@ -51,7 +51,7 @@ export function SiteFooter() {
             href={FACEBOOK_URL}
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="Facebook — Zielone Serce Botanika"
+            aria-label="Facebook - Zielone Serce Botanika"
             className="hidden shrink-0 text-white/75 transition hover:text-accent-neon sm:inline-flex"
           >
             <FacebookIcon className="h-7 w-7" />

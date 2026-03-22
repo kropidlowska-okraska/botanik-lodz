@@ -9,7 +9,7 @@ const ctaBaseClassName =
 const fillDefault =
   "bg-accent-neon/10 shadow-[0_0_28px_rgba(57,255,20,0.2)] hover:shadow-[0_0_32px_rgba(57,255,20,0.45)]";
 
-/** Slight frosted panel on the pill — for use on busy backdrops (e.g. hero photo). */
+/** Slight frosted panel on the pill - for use on busy backdrops (e.g. hero photo). */
 const fillSubtleBackdrop =
   "bg-white/15 shadow-sm ring-1 ring-white/25 backdrop-blur-sm";
 

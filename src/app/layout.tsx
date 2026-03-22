@@ -15,7 +15,7 @@ const dmSerif = DM_Serif_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Zielone Serce Botanika — Dżungla 360",
+  title: "Zielone Serce Botanika - Dżungla 360",
   description:
     "Informacje o planach miasta wobec Ogrodu Botanicznego w Łodzi oraz stanowiskach środowisk eksperckich.",
 };
