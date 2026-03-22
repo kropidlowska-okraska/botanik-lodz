@@ -22,7 +22,7 @@ export function HeroSection({
 }: HeroSectionProps) {
   return (
     <section
-      className="relative isolate min-h-[min(85vh,1000px)] overflow-hidden"
+      className="relative isolate min-h-[min(90vh,1000px)] overflow-hidden"
       aria-labelledby={titleId}
     >
       <Image
@@ -48,7 +48,7 @@ export function HeroSection({
             {topLeftCta}
           </div>
         ) : null}
-        <div className="absolute right-4 top-16 z-10 w-fit max-w-[min(26rem,calc(100vw-2rem))] sm:right-6 sm:top-20">
+        <div className="absolute right-4 top-16 z-10 hidden w-fit max-w-[min(26rem,calc(100vw-2rem))] md:block sm:right-6 sm:top-20">
           <p className="text-right text-base font-semibold leading-snug text-white/85 [text-shadow:0_1px_3px_rgba(0,0,0,0.9),0_4px_20px_rgba(5,24,13,0.45)] sm:text-lg sm:leading-relaxed md:text-xl">
             {verseLines.map((line, i) => (
               <span key={`${i}-${line}`}>

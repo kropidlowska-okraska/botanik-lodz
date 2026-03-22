@@ -26,32 +26,49 @@ export function SiteFooter() {
       <h2 id="h-kontakt" className="sr-only">
         Kontakt
       </h2>
-      <div className="mx-auto flex h-16 max-w-6xl items-stretch sm:h-20">
-        <div className="relative w-[min(52vw,15rem)] shrink-0 pl-4 sm:w-64 sm:pl-6">
+      <div className="mx-auto flex max-w-6xl items-center gap-3 px-4 py-5 sm:h-20 sm:gap-0 sm:px-0 sm:py-0">
+        <Image
+          src="/logo-zielone-serce.png"
+          alt="Zielone Serce Botanika"
+          width={512}
+          height={512}
+          className="h-28 w-28 shrink-0 object-contain sm:hidden"
+          sizes="112px"
+        />
+
+        <div className="relative hidden h-full w-64 shrink-0 pl-6 sm:block">
           <Image
             src="/logo-horizontal.png"
             alt="Zielone Serce Botanika"
             fill
             className="object-contain object-left"
-            sizes="(max-width: 640px) 52vw, 256px"
+            sizes="256px"
           />
         </div>
 
-        <div className="flex min-w-0 flex-1 flex-wrap items-center justify-end gap-x-4 gap-y-2 px-4 text-sm text-white/90 sm:px-6 sm:text-base">
+        <div className="flex min-w-0 flex-1 flex-col items-end justify-center gap-2 sm:flex-row sm:items-center sm:justify-end sm:gap-x-4 sm:px-6 sm:pl-4">
           <a
             href={FACEBOOK_URL}
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Facebook — Zielone Serce Botanika"
-            className="shrink-0 text-white/75 transition hover:text-accent-neon"
+            className="hidden shrink-0 text-white/75 transition hover:text-accent-neon sm:inline-flex"
           >
-            <FacebookIcon className="h-6 w-6 sm:h-7 sm:w-7" />
+            <FacebookIcon className="h-7 w-7" />
           </a>
           <a
             href={`mailto:${EMAIL}`}
-            className="truncate font-medium text-accent-neon underline decoration-accent-neon/35 underline-offset-2 transition hover:decoration-accent-neon"
+            className="min-w-0 max-w-[min(100%,14rem)] text-right wrap-anywhere text-xs font-medium leading-snug text-accent-neon underline decoration-accent-neon/35 underline-offset-2 transition hover:decoration-accent-neon sm:max-w-none sm:truncate sm:text-base"
           >
             {EMAIL}
+          </a>
+          <a
+            href={FACEBOOK_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-xs font-medium text-white/80 underline decoration-white/30 underline-offset-2 transition hover:text-accent-neon hover:decoration-accent-neon/50 sm:hidden"
+          >
+            Odwiedź nas na Facebooku
           </a>
         </div>
       </div>
