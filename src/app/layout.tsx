@@ -26,7 +26,7 @@ const defaultDescription =
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: `${SITE_NAME} - sprzeciw wobec Dżungli 360 w łódzkim Ogrodzie Botanicznym`,
+    default: `${SITE_NAME} - sprzeciw wobec Dżungli 360 w Ogrodzie Botanicznym w Łodzi`,
     template: `%s | ${SITE_NAME}`,
   },
   description: defaultDescription,
@@ -57,7 +57,7 @@ export const metadata: Metadata = {
     locale: "pl_PL",
     url: "/",
     siteName: SITE_NAME,
-    title: `${SITE_NAME} - nie dla Dżungli 360 w Ogrodzie Botanicznym`,
+    title: `${SITE_NAME} - nie dla Dżungli 360 w Ogrodzie Botanicznym w Łodzi`,
     description: defaultDescription,
     images: [
       {

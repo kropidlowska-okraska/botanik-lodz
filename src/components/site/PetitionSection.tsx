@@ -24,7 +24,7 @@ export function PetitionSection({
       <div className="space-y-4 text-base leading-relaxed text-white/92 sm:text-lg">
         <p>
           Petycja sprzeciwia się planowanej budowie „Dżungli 360” - dużej,
-          kosztownej budowli w łódzkim Ogrodzie Botanicznym. Projekt zakłada
+          kosztownej budowli w Ogrodzie Botanicznym w Łodzi. Projekt zakłada
           postawienie sztucznych konstrukcji i komercyjnych atrakcji na terenie
           jednego z najcenniejszych terenów zielonych w mieście. Tego rodzaju
           inwestycja oznaczałaby ingerencję w unikatowy obszar przyrodniczy,

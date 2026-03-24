@@ -41,7 +41,7 @@ export default function Home() {
           "Tu zieleń ma swój dom!",
         ]}
         titleMain="Nie dla projektu „Dżungla 360”"
-        titleSub="w ogrodzie botanicznym w Łodzi"
+        titleSub="w Ogrodzie Botanicznym w Łodzi"
       />
 
       <main id="main" className="flex-1">
@@ -98,7 +98,7 @@ export default function Home() {
                 title:
                   "Sekcja Lichenologiczna Polskiego Towarzystwa Botanicznego (styczeń 2026)",
                 body:
-                  "Sekcja Lichenologiczna Polskiego Towarzystwa Botanicznego sprzeciwia się budowie „Dżungli 360” w łódzkim Ogrodzie Botanicznym. W 2023 roku przeprowadziła tam badania, które wykazały obecność 73 taksonów porostów z 42 rodzajów, w tym gatunków chronionych i z czerwonej listy. Zdaniem Sekcji planowana inwestycja zagraża tym siedliskom, narusza przepisy o ochronie przyrody i jest sprzeczna z ustawową rolą ogrodów botanicznych. Sekcja apeluje o ponowną analizę zasadności projektu i poszukanie rozwiązań niekolidujących z przyrodniczymi wartościami ogrodu.",
+                  "Sekcja Lichenologiczna Polskiego Towarzystwa Botanicznego sprzeciwia się budowie „Dżungli 360” w Ogrodzie Botanicznym w Łodzi. W 2023 roku przeprowadziła tam badania, które wykazały obecność 73 taksonów porostów z 42 rodzajów, w tym gatunków chronionych i z czerwonej listy. Zdaniem Sekcji planowana inwestycja zagraża tym siedliskom, narusza przepisy o ochronie przyrody i jest sprzeczna z ustawową rolą ogrodów botanicznych. Sekcja apeluje o ponowną analizę zasadności projektu i poszukanie rozwiązań niekolidujących z przyrodniczymi wartościami ogrodu.",
                 stanceDocuments: [
                   {
                     src: "/sekcja-lichenologiczna-stanowisko-1.png",
