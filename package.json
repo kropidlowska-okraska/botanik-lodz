@@ -2,6 +2,7 @@
   "name": "botanik",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://www.zielonesercebotanika.pl/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
