@@ -60,11 +60,11 @@ export function SiteHeader({
   }, [menuOpen, close]);
 
   const linkClass =
-    "rounded-md px-3 py-2 text-white/90 transition hover:bg-white/10 hover:text-accent-neon md:px-3 md:py-1";
+    "rounded-md px-3 py-2 text-white/90 transition hover:bg-white/10 hover:text-accent-neon lg:px-3 lg:py-1";
 
   return (
     <header className="sticky top-0 z-50 border-b border-border-subtle bg-bg-deep/90 backdrop-blur-md">
-      <div className="relative mx-auto flex h-14 max-w-6xl items-stretch sm:h-16">
+      <div className="relative mx-auto flex h-14 max-w-7xl items-stretch sm:h-16">
         <Link
           href={homeHref}
           className="flex h-full min-w-0 items-center gap-3 pl-4 sm:pl-6"
@@ -88,7 +88,7 @@ export function SiteHeader({
         <div className="relative ml-auto flex h-full items-center pr-4 sm:pr-6">
           <button
             type="button"
-            className="inline-flex items-center justify-center rounded-md p-2 text-white/90 transition hover:bg-white/10 hover:text-accent-neon md:hidden"
+            className="inline-flex items-center justify-center rounded-md p-2 text-white/90 transition hover:bg-white/10 hover:text-accent-neon lg:hidden"
             aria-expanded={menuOpen}
             aria-controls={navId}
             aria-label={menuOpen ? "Zamknij menu" : "Otwórz menu nawigacji"}
@@ -101,8 +101,8 @@ export function SiteHeader({
             id={navId}
             className={[
               "absolute right-0 top-full z-50 mt-1 w-max min-w-[11rem] max-w-[min(18rem,calc(100vw-2rem))] flex-col gap-0.5 rounded-lg border border-border-subtle bg-bg-deep/98 px-3 py-3 text-xs font-semibold uppercase tracking-wide shadow-lg backdrop-blur-md sm:text-sm",
-              "md:static md:mt-0 md:ml-4 md:flex md:min-w-0 md:max-w-none md:flex-row md:items-center md:gap-4 md:rounded-none md:border-0 md:bg-transparent md:p-0 md:shadow-none",
-              menuOpen ? "max-md:flex" : "max-md:hidden",
+              "lg:static lg:mt-0 lg:ml-4 lg:flex lg:min-w-0 lg:max-w-none lg:flex-row lg:items-center lg:gap-4 lg:rounded-none lg:border-0 lg:bg-transparent lg:p-0 lg:shadow-none",
+              menuOpen ? "max-lg:flex" : "max-lg:hidden",
             ].join(" ")}
             aria-label="Nawigacja sekcji"
           >

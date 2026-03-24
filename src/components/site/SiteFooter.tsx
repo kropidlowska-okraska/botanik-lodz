@@ -26,7 +26,7 @@ export function SiteFooter() {
       <h2 id="h-kontakt" className="sr-only">
         Kontakt
       </h2>
-      <div className="mx-auto flex max-w-6xl items-center gap-3 px-4 py-5 sm:h-20 sm:gap-0 sm:px-0 sm:py-0">
+      <div className="mx-auto flex max-w-7xl items-center gap-3 px-4 py-5 sm:h-20 sm:gap-0 sm:px-0 sm:py-0">
         <Image
           src="/logo-zielone-serce.png"
           alt="Zielone Serce Botanika"

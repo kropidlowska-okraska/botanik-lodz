@@ -43,7 +43,7 @@ export default function Home() {
       />
 
       <main id="main" className="flex-1">
-        <article className="mx-auto max-w-6xl px-4 py-14 sm:px-6 sm:py-20">
+        <article className="mx-auto max-w-7xl px-4 py-14 sm:px-6 sm:py-20">
           <PlanSection
             id="plan"
             headingId="h-plan"
