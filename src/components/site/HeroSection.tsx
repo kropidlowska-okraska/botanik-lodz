@@ -42,7 +42,7 @@ export function HeroSection({
         className="pointer-events-none absolute inset-0 z-1 bg-[radial-gradient(ellipse_95%_75%_at_100%_0%,rgba(5,24,13,0.55)_0%,rgba(5,24,13,0.22)_38%,rgba(5,24,13,0.06)_58%,transparent_72%),radial-gradient(ellipse_90%_70%_at_0%_0%,rgba(5,24,13,0.42)_0%,rgba(5,24,13,0.12)_48%,transparent_70%)]"
         aria-hidden
       />
-      <div className="relative mx-auto flex min-h-[min(85vh,720px)] max-w-6xl flex-col justify-end px-4 pb-12 pt-24 sm:px-6 sm:pb-16">
+      <div className="relative mx-auto flex min-h-[min(85vh,720px)] max-w-6xl flex-col justify-end px-4 pb-24 pt-24 sm:px-6 sm:pb-16">
         {topLeftCta ? (
           <div className="absolute left-4 top-16 z-10 sm:left-6 sm:top-20">
             {topLeftCta}

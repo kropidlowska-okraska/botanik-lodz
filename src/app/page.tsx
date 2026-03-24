@@ -5,7 +5,9 @@ import { OppositionSection } from "@/components/site/OppositionSection";
 import { PetitionCtaButton } from "@/components/site/PetitionCtaButton";
 import { PetitionSection } from "@/components/site/PetitionSection";
 import { PlanSection } from "@/components/site/PlanSection";
+import { ProtestSongSection } from "@/components/site/ProtestSongSection";
 import { ProtestPoster } from "@/components/site/ProtestPoster";
+import { PROTEST_VERSE_LINES } from "@/content/protest-verse";
 import { SiteFooter } from "@/components/site/SiteFooter";
 import { SiteHeader } from "@/components/site/SiteHeader";
 import { SkipLink } from "@/components/site/SkipLink";
@@ -16,6 +18,7 @@ const navLinks = [
   { href: "#galeria", label: "Galeria" },
   { href: "#petycja", label: "Petycja" },
   { href: "#aport", label: "Aport" },
+  { href: "#piosenka", label: "Piosenka" },
   { href: "#kontakt", label: "Kontakt" },
 ];
 
@@ -34,12 +37,7 @@ export default function Home() {
         imageSrc="/hero-tulipany.png"
         imageAlt="Kwitnące tulipany w ogrodzie"
         topLeftCta={<PetitionCtaButton subtleBackdrop />}
-        verseLines={[
-          "Zostawcie Botanika!",
-          "Nie róbcie z niego show!",
-          "Tu Dżungli nie chcą ludzie,",
-          "Tu zieleń ma swój dom!",
-        ]}
+        verseLines={PROTEST_VERSE_LINES}
         titleMain="Nie dla projektu „Dżungla 360”"
         titleSub="w Ogrodzie Botanicznym w Łodzi"
       />
@@ -172,6 +170,8 @@ export default function Home() {
           <PetitionSection />
 
           <AportSection id="aport" headingId="h-aport" />
+
+          <ProtestSongSection id="piosenka" headingId="h-piosenka" />
         </article>
       </main>
 
