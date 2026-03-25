@@ -18,7 +18,7 @@ const navLinks = [
   { href: "#galeria", label: "Galeria" },
   { href: "#petycja", label: "Petycja" },
   { href: "#aport", label: "Aport" },
-  { href: "#piosenka", label: "Piosenka" },
+  { href: "#piosenka", label: "Protest song" },
   { href: "#kontakt", label: "Kontakt" },
 ];
 
