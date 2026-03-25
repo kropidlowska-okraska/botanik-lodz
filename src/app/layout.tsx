@@ -57,7 +57,7 @@ export const metadata: Metadata = {
     locale: "pl_PL",
     url: "/",
     siteName: SITE_NAME,
-    title: `${SITE_NAME} - nie dla Dżungli 360 w Ogrodzie Botanicznym w Łodzi`,
+    title: `${SITE_NAME} - Nie dla Dżungli 360 w Ogrodzie Botanicznym w Łodzi`,
     description: defaultDescription,
     images: [
       {
@@ -70,7 +70,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: `${SITE_NAME} - nie dla Dżungli 360`,
+    title: `${SITE_NAME} - Nie dla Dżungli 360`,
     description: defaultDescription,
     images: ["/hero-tulipany.png"],
   },
