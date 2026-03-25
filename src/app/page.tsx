@@ -66,6 +66,19 @@ export default function Home() {
             intro="Sprzeciw wobec planowanej “Dżungli 360” jest szeroki i pochodzi zarówno od samych mieszkańców i mieszkanek Łodzi, ale też z różnych środowisk naukowych i eksperckich. Petycję w sprawie zatrzymania tej szkodliwej inwestycji podpisało już ponad 7 tysięcy Łodzian i Łodzianek. A w sekcji poniżej zapraszamy do zapoznania się ze stanowiskami i opiniami specjalistów zajmujących się m.in. ochroną przyrody."
             entries={[
               {
+                title:
+                  "Rada Ogrodów Botanicznych i Arboretów w Polsce - ROBiA (luty 2026)",
+                body:
+                  "Najbardziej szczegółowe i formalne stanowisko branżowe, zdecydowanie warte przeczytania w całości. Wskazuje na ryzyko: prawne (naruszenie ustawy o ochronie przyrody i decyzji zezwalającej na prowadzenie ogrodu), przyrodnicze (zacienienie kolekcji, zaburzenie gospodarki wodnej, zagęszczenie gleb, ryzyko kolizji ptaków z przeszkleniem), biologiczne (zawleczenie patogenów przez import roślin tropikalnych), finansowe (wysokie koszty operacyjne utrzymania „tropiku”) oraz instytucjonalne (rozmycie odpowiedzialności po przekazaniu ogrodu spółce handlowej). ROBiA rekomenduje zmianę koncepcji na model modernizacji infrastruktury „niskoinwazyjnej” i wzmocnienie funkcji naukowo-edukacyjnych bez wielkoskalowej kubatury.",
+                stanceDocuments: [
+                  {
+                    src: "/robia-stanowisko-luty-2026.pdf",
+                    alt: "Stanowisko ROBiA z lutego 2026 w sprawie Ogrodu Botanicznego w Łodzi",
+                    kind: "pdf",
+                  },
+                ],
+              },
+              {
                 title: "Rada Naukowa Ogrodu Botanicznego w Łodzi (marzec 2026)",
                 body: "Organ wewnętrzny samego ogrodu wydał opinię negatywną wobec budowy dużego pawilonu i komercjalizacji. Popiera natomiast modernizację infrastruktury, istniejących działów i budowę małej palmiarni podporządkowanej funkcjom edukacyjnym. Rada Naukowa Ogrodu Botanicznego sprzeciwia się przede wszystkim podziałowi Ogrodu i przekazaniu jego terenu spółce prawa handlowego.",
                 stanceDocuments: [
@@ -76,19 +89,6 @@ export default function Home() {
                   {
                     src: "/rada-naukowa-stanowisko-1.png",
                     alt: "Fragment oświadczenia Rady Naukowej OB w Łodzi - m.in. punkty, co Rada nie zaopiniowała pozytywnie",
-                  },
-                ],
-              },
-              {
-                title:
-                  "Rada Ogrodów Botanicznych i Arboretów w Polsce - ROBiA (luty 2026)",
-                body:
-                  "Najbardziej szczegółowe i formalne stanowisko branżowe, zdecydowanie warte przeczytania w całości. Wskazuje na ryzyko: prawne (naruszenie ustawy o ochronie przyrody i decyzji zezwalającej na prowadzenie ogrodu), przyrodnicze (zacienienie kolekcji, zaburzenie gospodarki wodnej, zagęszczenie gleb, ryzyko kolizji ptaków z przeszkleniem), biologiczne (zawleczenie patogenów przez import roślin tropikalnych), finansowe (wysokie koszty operacyjne utrzymania „tropiku”) oraz instytucjonalne (rozmycie odpowiedzialności po przekazaniu ogrodu spółce handlowej). ROBiA rekomenduje zmianę koncepcji na model modernizacji infrastruktury „niskoinwazyjnej” i wzmocnienie funkcji naukowo-edukacyjnych bez wielkoskalowej kubatury.",
-                stanceDocuments: [
-                  {
-                    src: "/robia-stanowisko-luty-2026.pdf",
-                    alt: "Stanowisko ROBiA z lutego 2026 w sprawie Ogrodu Botanicznego w Łodzi",
-                    kind: "pdf",
                   },
                 ],
               },
@@ -148,6 +148,18 @@ export default function Home() {
                   {
                     src: "/olaczek-list-otwarty-2.png",
                     alt: "List otwarty prof. Romualda Olaczka - strona 2 (zakończenie i podpis)",
+                  },
+                ],
+              },
+              {
+                title: "Towarzystwo Przyjaciół Łodzi",
+                body:
+                  "Towarzystwo Przyjaciół Łodzi (działające od 1959 roku) stanowczo i jednoznacznie sprzeciwia się projektowi „Dżungli 360” i planom przekazania terenów zielonych aportem do spółki Holding Łódź. TPŁ przypomina, że Ogród Botaniczny powstał nie jako przestrzeń inwestycyjna, lecz jako element powojennej strategii równoważenia skutków industrializacji - i stanowi dziedzictwo urbanistyczne równie cenne jak zabytkowa architektura miasta. Przekazanie go strukturom spółki handlowej oznaczałoby nieodwracalną komercjalizację i utratę społecznej kontroli nad tym terenem. Towarzystwo wzywa do całkowitej rezygnacji z projektu, ochrony Ogrodu jako dobra wspólnego oraz dofinansowania jego modernizacji i przywrócenia mu właściwej rangi instytucjonalnej.",
+                stanceDocuments: [
+                  {
+                    src: "/towarzystwo-przyjaciol-lodzi-stanowisko.pdf",
+                    alt: "Stanowisko Towarzystwa Przyjaciół Łodzi - projekt Dżungla 360 i aport terenów zielonych do Holding Łódź",
+                    kind: "pdf",
                   },
                 ],
               },
