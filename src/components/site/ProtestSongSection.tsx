@@ -15,7 +15,7 @@ export function ProtestSongSection({ id, headingId }: ProtestSongSectionProps) {
       aria-labelledby={headingId}
     >
       <SectionHeading id={headingId} variant="neon">
-        Piosenka protestu
+        Protest song
       </SectionHeading>
       {PROTEST_SONG_YOUTUBE_VIDEO_ID ? (
         <div className="overflow-hidden rounded-xl border border-white/10 bg-black/40 shadow-[inset_0_1px_0_rgba(57,255,20,0.08)]">
