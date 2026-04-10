@@ -14,7 +14,7 @@ import { SkipLink } from "@/components/site/SkipLink";
 
 const navLinks = [
   { href: "#plan", label: "Start" },
-  { href: "#sprzeciw", label: "Stanowiska naukowe" },
+  { href: "#sprzeciw", label: "Stanowiska" },
   { href: "#galeria", label: "Galeria" },
   { href: "#petycja", label: "Petycja" },
   { href: "#aport", label: "Aport" },
