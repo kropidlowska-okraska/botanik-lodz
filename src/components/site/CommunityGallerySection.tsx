@@ -1,5 +1,4 @@
-import Image from "next/image";
-
+import { CommunityGalleryGrid } from "./CommunityGalleryGrid";
 import { SectionHeading } from "./SectionHeading";
 
 const PHOTOS: { src: string; alt: string }[] = [
@@ -39,7 +38,29 @@ const PHOTOS: { src: string; alt: string }[] = [
     src: "/galeria/tvp-studio-samorzad.png",
     alt: "Program TVP3 Łódź (Samorząd): debata przy stole w studiu telewizyjnym",
   },
+  {
+    src: "/galeria/konsultacje-2020-infografika.png",
+    alt: "Infografika z raportu konsultacji społecznych „Jaki Ogród Botaniczny w Łodzi?” 2020 - m.in. powody wizyt i oczekiwania mieszkańców",
+  },
+  {
+    src: "/galeria/protest-holding-lodz.png",
+    alt: "Grupa z transparentem „Botanik nie dla Spółki Holding Łódź” w Ogrodzie Botanicznym, logo Zielone Serce Botanika",
+  },
+  {
+    src: "/galeria/protest-nie-dla-betonu-rodzina.png",
+    alt: "Rodzina na alei wśród tulipanów; transparent „Nie dla betonu, tak dla zieleni”; w tle plac budowy",
+  },
+  {
+    src: "/galeria/kampania-nie-dla-holding.png",
+    alt: "Plakat kampanii: „Nie dla holdingu — nie oddamy zieleni”; rodzina na tle lasu i maszyn budowlanych, Zielone Serce Botanika",
+  },
+  {
+    src: "/galeria/protest-banner-tulipany.png",
+    alt: "Transparent przy kwitnących rabatach: „Nie dla przekazania Botanika do Holding Łódź”, „Botanik nie na sprzedaż”",
+  },
 ];
+
+const MOBILE_VISIBLE_INDICES = [0, 1, 10, 11];
 
 type CommunityGallerySectionProps = {
   id: string;
@@ -62,22 +83,10 @@ export function CommunityGallerySection({
       <p className="mb-8 w-full max-w-none text-balance text-base leading-relaxed text-white/80 sm:text-lg">
         Protesty, debaty, obecność w mediach - społeczna mobilizacja wokół Ogrodu Botanicznego.
       </p>
-      <div className="grid grid-cols-1 gap-0 overflow-hidden rounded-xl border border-white/10 sm:grid-cols-2 lg:grid-cols-3">
-        {PHOTOS.map((photo, index) => (
-          <figure
-            key={photo.src}
-            className={`relative aspect-4/3 w-full min-h-48 bg-black/40 sm:min-h-0 ${[0, 1, 4].includes(index) ? "" : "hidden sm:block"}`}
-          >
-            <Image
-              src={photo.src}
-              alt={photo.alt}
-              fill
-              className="object-cover"
-              sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-            />
-          </figure>
-        ))}
-      </div>
+      <CommunityGalleryGrid
+        photos={PHOTOS}
+        mobileVisibleIndices={MOBILE_VISIBLE_INDICES}
+      />
     </section>
   );
 }
