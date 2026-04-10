@@ -209,7 +209,7 @@ export function PetitionCommentsSlider({
             priority={index === 0}
           />
           <div
-            className="pointer-events-none absolute inset-0 z-10 rounded-[inherit] bg-bg-deep/35"
+            className="pointer-events-none absolute inset-0 z-10 rounded-[inherit] bg-bg-deep/3"
             aria-hidden
           />
         </figure>
