@@ -174,6 +174,18 @@ export default function Home() {
                   },
                 ],
               },
+              {
+                title:
+                  "Światowy Ruch Katolików na Rzecz Środowiska (marzec 2026)",
+                body:
+                  "Światowy Ruch Katolików na Rzecz Środowiska (animatorzy ruchu Laudato si’ z Łodzi) sprzeciwia się budowie „Dżungli 360” w Ogrodzie Botanicznym i popiera protest inicjatywy „Zielone Serce Botanika”. Organizacja wskazuje na destrukcyjną ingerencję inwestycji w cenny ekosystem oraz sprzeczność projektu z postindustrialnym wizerunkiem Łodzi. Podkreśla również zagrożenie wykluczeniem społecznym – komercjalizacja Botanika, wzorem łódzkiego ZOO, wielokrotnie podniesie ceny wstępu, pozbawiając dostępu rodziny i seniorów. Działając w duchu nauczania papieży Franciszka i Leona XIV o trosce o wspólny dom, organizacja wzywa władze do zaprzestania przekazywania terenów spółce Holding Łódź oraz do podjęcia rzetelnego dialogu z mieszkańcami.",
+                stanceDocuments: [
+                  {
+                    src: "/swiatowy-ruch-katolikow-stanowisko.png",
+                    alt: "List poparcia Światowego Ruchu Katolików na Rzecz Środowiska dla Zielonego Serca Botanika i protestu przeciwko budowie „Dżungli 360” (Łódź, marzec 2026)",
+                  },
+                ],
+              },
             ]}
           />
 
