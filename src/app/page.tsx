@@ -1,5 +1,6 @@
 import { AportSection } from "@/components/site/AportSection";
 import { CommunityGallerySection } from "@/components/site/CommunityGallerySection";
+import { FacebookReelSection } from "@/components/site/FacebookReelSection";
 import { HeroSection } from "@/components/site/HeroSection";
 import { OppositionSection } from "@/components/site/OppositionSection";
 import { PetitionCtaButton } from "@/components/site/PetitionCtaButton";
@@ -15,8 +16,9 @@ import { SkipLink } from "@/components/site/SkipLink";
 const navLinks = [
   { href: "#plan", label: "Start" },
   { href: "#sprzeciw", label: "Stanowiska" },
-  { href: "#galeria", label: "Galeria" },
+  { href: "#facebook-reel", label: "Debata" },
   { href: "#petycja", label: "Petycja" },
+  { href: "#galeria", label: "Galeria" },
   { href: "#aport", label: "Aport" },
   { href: "#piosenka", label: "Protest song" },
   { href: "#kontakt", label: "Kontakt" },
@@ -49,7 +51,7 @@ export default function Home() {
             headingId="h-plan"
             title="Co planuje miasto?"
             paragraphs={[
-              "Władze Łodzi chcą zrealizować projekt „Dżungla 360” - budowę ogromnego całorocznego pawilonu tropikalnego na terenie Ogrodu Botanicznego przy ulicy Krzemienieckiej. Z dostępnych dokumentów wynika, że chodzi o obiekt o powierzchni 15 000–20 000 m² i wysokości 30 metrów, z ekspozycją roślin egzotycznych, ptaków i bezkręgowców. Na wizualizacjach można zobaczyć olbrzymią szklaną kopułę.",
+              "Władze Łodzi chcą zrealizować projekt „Dżungla 360” - budowę ogromnego całorocznego pawilonu tropikalnego na terenie Ogrodu Botanicznego przy ulicy Krzemienieckiej. Z dostępnych dokumentów wynika, że chodzi o obiekt o powierzchni 15 000–20 000 m² i do wysokości 30 metrów, z ekspozycją roślin egzotycznych, ptaków i bezkręgowców. Na wizualizacjach można zobaczyć olbrzymią szklaną kopułę.",
               "Projekt ma być realizowany przez spółkę Holding Łódź Sp. z o.o., a tereny ogrodu mają zostać wniesione aportem do tej spółki (uchwała Rady Miejskiej nr XXV/716/25 z 17 grudnia 2025 r.). Inwestycja miałaby być powiązana z pobliskim Orientarium, z którym miałby łączyć ją nie tylko właściciel w postaci Holdingu Łódź, ale i bliżej nieokreślona konstrukcja architektoniczna.",
             ]}
           />
@@ -189,9 +191,11 @@ export default function Home() {
             ]}
           />
 
-          <CommunityGallerySection id="galeria" headingId="h-galeria" />
+          <FacebookReelSection id="facebook-reel" headingId="h-facebook-reel" />
 
           <PetitionSection />
+
+          <CommunityGallerySection id="galeria" headingId="h-galeria" />
 
           <AportSection id="aport" headingId="h-aport" />
 
