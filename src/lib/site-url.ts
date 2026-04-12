@@ -1,6 +1,19 @@
-/** Kanoniczny adres produkcyjny strony. Nadpisz przez `NEXT_PUBLIC_SITE_URL` jeśli potrzeba. */
-export const CANONICAL_SITE_URL = "https://www.zielonesercebotanika.pl";
+/** Apex domain (no www) — same as in DNS / Vercel. */
+export const SITE_DOMAIN = "zielonesercebotanika.pl";
 
+/**
+ * Canonical production host — must match Vercel “Primary Domain”
+ * (e.g. www.zielonesercebotanika.pl).
+ */
+export const CANONICAL_HOST = `www.${SITE_DOMAIN}`;
+
+/** Full canonical HTTPS URL (sitemap, metadataBase, JSON-LD). */
+export const CANONICAL_SITE_URL = `https://${CANONICAL_HOST}`;
+
+/**
+ * Site URL for builds (sitemap, Open Graph).
+ * On Vercel, set `NEXT_PUBLIC_SITE_URL` to the same URL as Primary Domain.
+ */
 export function getSiteUrl(): string {
   const fromEnv = process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "");
   if (fromEnv) {

@@ -6,7 +6,7 @@ import { useState } from "react";
 export type StanceDocument = {
   src: string;
   alt: string;
-  /** Domyślnie obraz PNG/JPEG; `pdf` osadza plik w ramce (np. stanowisko w PDF). */
+  /** Defaults to PNG/JPEG; `pdf` embeds the file in a frame (e.g. stance as PDF). */
   kind?: "image" | "pdf";
 };
 
