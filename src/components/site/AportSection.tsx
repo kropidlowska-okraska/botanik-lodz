@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 import { ReadMoreBlock } from "./ReadMoreBlock";
 import { SectionHeading } from "./SectionHeading";
 
@@ -46,6 +48,16 @@ export function AportSection({ id, headingId }: AportSectionProps) {
         </div>
 
         <div>
+          <div className="mb-8 flex justify-center">
+            <Image
+              src="/zagrozenia-aport.svg"
+              alt="Infografika o zagrożeniach związanych z przekazaniem terenów zielonych do Holdingu Łódź."
+              width={680}
+              height={840}
+              className="h-auto w-full max-w-xl rounded-lg border border-white/15 shadow-lg shadow-black/20"
+              unoptimized
+            />
+          </div>
           <h3 className="text-lg font-bold text-accent-lime sm:text-xl">
             Czy miasto może stracić teren ogrodu?
           </h3>
