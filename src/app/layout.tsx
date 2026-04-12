@@ -20,8 +20,13 @@ const siteUrl = getSiteUrl();
 
 const SITE_NAME = "Zielone Serce Botanika";
 
-const defaultDescription =
+/** Short site summary — JSON-LD `WebSite` only (not HTML meta / OG / Twitter). */
+const siteDescriptionJsonLd =
   "Nie dla projektu Dżungla 360 w Ogrodzie Botanicznym w Łodzi. Plan miasta i Holding Łódź, ryzyko aportu, stanowiska naukowe (Rada Naukowa OB, ROBiA, ERCE PAN, Wydział Biologii UŁ), petycja mieszkańców, galeria protestów i debat.";
+
+/** Meta description — `<meta name="description">`, Open Graph, Twitter Card. */
+const siteMetaDescription =
+  "TAK dla Botanika, NIE dla Dżungli! Sprzeciw wobec planowanej „Dżungli 360” jest szeroki i pochodzi zarówno od samych mieszkańców i mieszkanek Łodzi, ale też z różnych środowisk naukowych i eksperckich. Petycję w sprawie zatrzymania tej szkodliwej inwestycji podpisało już ponad 7 tysięcy Łodzian i Łodzianek.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -29,7 +34,7 @@ export const metadata: Metadata = {
     default: `${SITE_NAME} - sprzeciw wobec Dżungli 360 w Ogrodzie Botanicznym w Łodzi`,
     template: `%s | ${SITE_NAME}`,
   },
-  description: defaultDescription,
+  description: siteMetaDescription,
   keywords: [
     "Ogród Botaniczny Łódź",
     "Dżungla 360",
@@ -58,7 +63,7 @@ export const metadata: Metadata = {
     url: "/",
     siteName: SITE_NAME,
     title: `${SITE_NAME} - Nie dla Dżungli 360 w Ogrodzie Botanicznym w Łodzi`,
-    description: defaultDescription,
+    description: siteMetaDescription,
     images: [
       {
         url: "/hero-tulipany.png",
@@ -71,7 +76,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: `${SITE_NAME} - Nie dla Dżungli 360`,
-    description: defaultDescription,
+    description: siteMetaDescription,
     images: ["/hero-tulipany.png"],
   },
   robots: {
@@ -116,7 +121,7 @@ export default function RootLayout({
         "@id": `${siteUrl}/#website`,
         url: siteUrl,
         name: SITE_NAME,
-        description: defaultDescription,
+        description: siteDescriptionJsonLd,
         inLanguage: "pl-PL",
         publisher: { "@id": `${siteUrl}/#organization` },
       },
