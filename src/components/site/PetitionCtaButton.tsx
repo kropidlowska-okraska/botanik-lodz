@@ -1,7 +1,6 @@
 import type { ReactNode } from "react";
 
-export const PETITION_URL =
-  "https://www.petycjeonline.com/nie_dla_projektu_zdrowie_20_i_inwestycji_dungla_360_w_ogrodzie_botanicznym_w_odzi";
+import { PETITION_URL } from "@/lib/petition-url";
 
 const ctaBaseClassName =
   "inline-flex items-center justify-center rounded-full border-2 border-accent-neon px-8 py-3.5 text-base font-bold uppercase tracking-wide text-accent-neon transition hover:bg-accent-neon hover:text-bg-deep hover:shadow-[0_0_32px_rgba(57,255,20,0.45)] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent-neon";
