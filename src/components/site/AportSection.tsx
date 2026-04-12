@@ -54,7 +54,7 @@ export function AportSection({ id, headingId }: AportSectionProps) {
               alt="Infografika o zagrożeniach związanych z przekazaniem terenów zielonych do Holdingu Łódź."
               width={680}
               height={840}
-              className="h-auto w-full max-w-xl rounded-lg border border-white/15 shadow-lg shadow-black/20"
+              className="h-auto w-full max-w-xl md:max-w-2xl lg:max-w-3xl rounded-lg border border-white/15 shadow-lg shadow-black/20"
               unoptimized
             />
           </div>
