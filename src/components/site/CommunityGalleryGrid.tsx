@@ -103,7 +103,7 @@ export function CommunityGalleryGrid({
             <div
               className="relative w-full min-w-0 overflow-hidden rounded-lg bg-black/40 p-1 shadow-[0_0_40px_rgba(57,255,20,0.12),inset_0_0_0_1px_rgba(57,255,20,0.15)] ring-2 ring-accent-neon/70 ring-offset-2 ring-offset-bg-deep sm:rounded-xl sm:p-1.5 sm:ring-[3px]"
             >
-              {/* Jawna szerokość + wysokość pola — wtedy object-contain faktycznie wypełnia ekran */}
+              {/* Explicit width + height so object-contain actually fills the viewport */}
               <div className="relative h-[min(92dvh,2600px)] w-full min-h-[40vh] overflow-hidden rounded-md sm:rounded-lg">
                 <Image
                   src={open.src}

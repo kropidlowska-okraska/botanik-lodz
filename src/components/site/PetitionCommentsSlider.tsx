@@ -71,15 +71,15 @@ function ArrowRightIcon({ className }: { className?: string }) {
   );
 }
 
-/** Jedna pozycja = jeden plik graficzny ze zrzutem komentarza (tekst jest na obrazie). */
+/** One slide = one image file with a comment screenshot (text is on the image). */
 export type PetitionCommentSlide = {
   id: string;
   imageSrc: string;
   imageAlt: string;
 };
 
-/** Nazwy plików w public/petycja-komentarze/ (kolejność chronologiczna wg czasu w nazwie). */
-const PETITION_KOMENTARZE_FILES = [
+/** Filenames under public/petycja-komentarze/ (chronological order by timestamp in filename). */
+const PETITION_COMMENT_SCREENSHOT_FILES = [
   "Screenshot 2026-03-22 at 18.03.41.png",
   "Screenshot 2026-03-22 at 18.03.54.png",
   "Screenshot 2026-03-22 at 18.04.17.png",
@@ -120,8 +120,8 @@ const PETITION_KOMENTARZE_FILES = [
 ] as const;
 
 function buildSlidesFromPetycjaFolder(): PetitionCommentSlide[] {
-  const total = PETITION_KOMENTARZE_FILES.length;
-  return PETITION_KOMENTARZE_FILES.map((filename, i) => ({
+  const total = PETITION_COMMENT_SCREENSHOT_FILES.length;
+  return PETITION_COMMENT_SCREENSHOT_FILES.map((filename, i) => ({
     id: `petycja-${i + 1}`,
     imageSrc: `/petycja-komentarze/${encodeURIComponent(filename)}`,
     imageAlt: `Zrzut ekranu komentarza z petycji (${i + 1} z ${total})`,

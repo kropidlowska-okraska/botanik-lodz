@@ -2,11 +2,11 @@ import { SectionHeading } from "./SectionHeading";
 
 const REEL_URL = "https://www.facebook.com/reel/908373188553279";
 
-/** Szerokość / wysokość playera (px) — format poziomy 16:9. */
+/** Player width / height (px) — horizontal 16:9. */
 const EMBED_WIDTH = 720;
 const EMBED_HEIGHT = Math.round((EMBED_WIDTH * 9) / 16);
 
-/** Oficjalny embed playera Facebooka (video.php). `height` ogranicza puste miejsce pod filmem. */
+/** Official Facebook player embed (video.php). `height` limits empty space below the video. */
 function reelEmbedSrc(width: number, height: number) {
   const params = new URLSearchParams({
     href: REEL_URL,

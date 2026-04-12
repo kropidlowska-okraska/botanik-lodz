@@ -4,7 +4,7 @@ import { StanceDocumentsToggle } from "./StanceDocumentsToggle";
 export type OppositionItem = {
   title: string;
   body: string;
-  /** Opcjonalne skany dokumentu (np. oświadczenie) - przycisk „Zobacz stanowisko”. */
+  /** Optional document scans (e.g. statement) — drives the “view stance” control. */
   stanceDocuments?: StanceDocument[];
 };
 

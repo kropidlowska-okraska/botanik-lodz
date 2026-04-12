@@ -1,4 +1,4 @@
-/** Wersy w hero (nad tytułem). */
+/** Hero verse lines (above the main title). */
 export const PROTEST_VERSE_LINES = [
   "Zostawcie Botanika!",
   "Nie róbcie z niego show!",
