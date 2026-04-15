@@ -1,9 +1,10 @@
+import type { ReactNode } from "react";
 import type { StanceDocument } from "./StanceDocumentsToggle";
 import { StanceDocumentsToggle } from "./StanceDocumentsToggle";
 
 export type OppositionItem = {
   title: string;
-  body: string;
+  body: ReactNode;
   /** Optional document scans (e.g. statement) — drives the “view stance” control. */
   stanceDocuments?: StanceDocument[];
 };

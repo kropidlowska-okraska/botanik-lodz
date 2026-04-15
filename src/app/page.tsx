@@ -125,8 +125,32 @@ export default function Home() {
               {
                 title:
                   "Europejskie Regionalne Centrum Ekohydrologii PAN (ERCE PAN, pod auspicjami UNESCO) (styczeń 2026)",
-                body:
-                  "Europejskie Regionalne Centrum Ekohydrologii PAN (ERCE PAN), działające pod auspicjami UNESCO, sprzeciwia się realizacji „Dżungli 360” w Ogrodzie Botanicznym w obecnej formie. Wskazuje na poważne ryzyko ekohydrologiczne dla zachodniej części Łodzi - miasta znajdującego się w strefie deficytu wodnego i nasilających się susz. Ogród Botaniczny i Łódzkie Błonia to obszary kluczowe dla unijnej polityki bioróżnorodności i adaptacji klimatycznej. ERCE PAN formułuje szereg konkretnych rekomendacji, w tym rozważenie alternatywnej lokalizacji inwestycji oraz przeprowadzenie kompleksowych badań środowiskowych przed podjęciem jakichkolwiek dalszych prac.",
+                body: (
+                  <>
+                    Europejskie Regionalne Centrum Ekohydrologii PAN (ERCE PAN),
+                    działające pod auspicjami UNESCO, sprzeciwia się realizacji
+                    „Dżungli 360” w Ogrodzie Botanicznym w obecnej formie.
+                    Wskazuje na poważne ryzyko ekohydrologiczne dla zachodniej
+                    części Łodzi - miasta znajdującego się w strefie deficytu
+                    wodnego i nasilających się susz. Ogród Botaniczny i Łódzkie
+                    Błonia to obszary kluczowe dla unijnej polityki
+                    bioróżnorodności i adaptacji klimatycznej. ERCE PAN
+                    formułuje szereg konkretnych rekomendacji, w tym rozważenie
+                    alternatywnej lokalizacji inwestycji oraz przeprowadzenie
+                    kompleksowych badań środowiskowych przed podjęciem
+                    jakichkolwiek dalszych prac.
+                    <span className="mt-2 block text-sm leading-snug text-white/45">
+                      <a
+                        href="https://erce.unesco.lodz.pl/aktualizacja-stanowiska-erce-pan-w-sprawie-lodzkich-bloni/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="underline decoration-white/20 underline-offset-2 transition hover:text-white/65 hover:decoration-white/35"
+                      >
+                        Aktualizacja stanowiska ERCE PAN w sprawie Łódzkich Błoni - ERCE
+                      </a>
+                    </span>
+                  </>
+                ),
                 stanceDocuments: [
                   {
                     src: "/erce-pan-stanowisko-1.png",

@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { useState } from "react";
+import { useState, type ReactNode } from "react";
 
 export type StanceDocument = {
   src: string;
@@ -12,7 +12,7 @@ export type StanceDocument = {
 
 type StanceDocumentsToggleProps = {
   documents: StanceDocument[];
-  body: string;
+  body: ReactNode;
 };
 
 export function StanceDocumentsToggle({
