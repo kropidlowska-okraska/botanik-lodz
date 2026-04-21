@@ -212,6 +212,19 @@ export default function Home() {
                   },
                 ],
               },
+              {
+                title:
+                  "Młodzieżowy Sejmik Województwa Łódzkiego – uchwała nr V/29/2026 (10 kwietnia 2026)",
+                body:
+                  "Młodzieżowy Sejmik Województwa Łódzkiego podjął uchwałę ze stanowczym sprzeciwem wobec budowy „Dżungli 360” w Ogrodzie Botanicznym. W uzasadnieniu podkreślono konieczność ochrony zieleni o wysokiej wartości przyrodniczej i społecznej, obawy przed negatywnym wpływem inwestycji na lokalny ekosystem oraz poważne zastrzeżenia co do lokalizacji pawilonu na terenie, który jednocześnie pełni funkcje ochronne i naukowe. Sejmik apeluje o wstrzymanie prac, transparentne konsultacje społeczne z ekspertami oraz rozważenie alternatywnych lokalizacji.",
+                stanceDocuments: [
+                  {
+                    src: "/mlodziezowy-sejmik-uchwala-v-29-2026.pdf",
+                    alt: "Uchwała nr V/29/2026 Młodzieżowego Sejmiku Województwa Łódzkiego w sprawie sprzeciwu wobec „Dżungli 360” w Ogrodzie Botanicznym w Łodzi",
+                    kind: "pdf",
+                  },
+                ],
+              },
             ]}
           />
 
