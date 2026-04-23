@@ -124,6 +124,19 @@ export default function Home() {
               },
               {
                 title:
+                  "Katedra Zarządzania Miastem i Regionem, Wydział Zarządzania Uniwersytetu Łódzkiego (kwiecień 2026)",
+                body:
+                  "Katedra Zarządzania Miastem i Regionem UŁ wyraża sprzeciw wobec projektu „Dżungla 360” w Łódzkim Ogrodzie Botanicznym, wskazując na poważne zagrożenia przyrodnicze, ekonomiczne i organizacyjne związane z jego realizacją – w tym dewastację siedlisk, wątpliwą rentowność obiektu oraz ryzyko utraty przez miasto kontroli nad cennymi terenami zieleni przekazanymi spółce Holding Łódź. Katedra podkreśla, że Ogród Botaniczny wymaga inwestycji dopasowanych do jego funkcji ochronnych, naukowych i edukacyjnych, a nie komercyjnych megaobiektów, zaś ewentualna atrakcja turystyczna tego typu powinna być lokalizowana na terenach poprzemysłowych, a nie na gruntach zielonych. Autorzy stanowiska krytykują również wadliwe zarządzanie Ogrodem oraz sposób komunikacji samorządu, który zamiast otwartej debaty zastosował technikę faktów dokonanych, publikując gotowe wizualizacje inwestycji.",
+                stanceDocuments: [
+                  {
+                    src: "/kzmir-wydzial-zarzadzania-ul-stanowisko-kwiecien-2026.pdf",
+                    alt: "Stanowisko Katedry Zarządzania Miastem i Regionem Wydziału Zarządzania UŁ z 17 kwietnia 2026 r. (opublikowane 21 kwietnia 2026) w sprawie funkcjonowania i rozwoju Łódzkiego Ogrodu Botanicznego oraz projektu „Dżungla 360”",
+                    kind: "pdf",
+                  },
+                ],
+              },
+              {
+                title:
                   "Europejskie Regionalne Centrum Ekohydrologii PAN (ERCE PAN, pod auspicjami UNESCO) (styczeń 2026)",
                 body: (
                   <>
