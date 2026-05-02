@@ -137,6 +137,22 @@ export default function Home() {
               },
               {
                 title:
+                  "Liga Ochrony Przyrody, Okręg Łódzki (27 kwietnia 2026)",
+                body:
+                  "Liga Ochrony Przyrody sprzeciwia się planowanej inwestycji „Dżungli 360” w Ogrodzie Botanicznym w Łodzi, uznając ją za zagrożenie dla bioróżnorodności, lokalnych ekosystemów oraz edukacyjno-naukowego charakteru placówki. LOP apeluje do władz miasta o rozważenie wstrzymanie działań, przeprowadzenie rzetelnych konsultacji społecznych i podjęcie otwartego dialogu z mieszkańcami.",
+                stanceDocuments: [
+                  {
+                    src: "/lop-lodz-stanowisko-1.png",
+                    alt: "Stanowisko Ligi Ochrony Przyrody Okręgu Łódzkiego - pismo do Prezydenta Miasta Łodzi w sprawie „Dżungli 360” (strona 1: uzasadnienie przyrodnicze)",
+                  },
+                  {
+                    src: "/lop-lodz-stanowisko-2.png",
+                    alt: "Stanowisko LOP Okręgu Łódzkiego - strona 2: uzasadnienie prawne, apel i adresaci",
+                  },
+                ],
+              },
+              {
+                title:
                   "Europejskie Regionalne Centrum Ekohydrologii PAN (ERCE PAN, pod auspicjami UNESCO) (styczeń 2026)",
                 body: (
                   <>
