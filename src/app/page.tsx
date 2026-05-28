@@ -9,31 +9,20 @@ import { PlanSection } from "@/components/site/PlanSection";
 import { ProtestSongSection } from "@/components/site/ProtestSongSection";
 import { ProtestPoster } from "@/components/site/ProtestPoster";
 import { PROTEST_VERSE_LINES } from "@/content/protest-verse";
+import { MediaSection } from "@/components/site/MediaSection";
 import { SiteFooter } from "@/components/site/SiteFooter";
-import { SiteHeader } from "@/components/site/SiteHeader";
+import { SiteShell } from "@/components/site/SiteShell";
 import { SkipLink } from "@/components/site/SkipLink";
-
-const navLinks = [
-  { href: "#plan", label: "Start" },
-  { href: "#sprzeciw", label: "Stanowiska" },
-  { href: "#facebook-reel", label: "Debata" },
-  { href: "#petycja", label: "Petycja" },
-  { href: "#galeria", label: "Galeria" },
-  { href: "#aport", label: "Aport" },
-  { href: "#piosenka", label: "Protest song" },
-  { href: "#kontakt", label: "Kontakt" },
-];
 
 export default function Home() {
   return (
     <div className="flex min-h-full flex-col bg-bg-deep text-white">
       <SkipLink href="#main">Przejdź do treści</SkipLink>
 
-      <SiteHeader
+      <SiteShell
         logoSrc="/logo-zielone-serce.png"
         brandName="Zielone Serce Botanika"
-        navLinks={navLinks}
-      />
+      >
 
       <HeroSection
         imageSrc="/hero-tulipany.png"
@@ -263,13 +252,16 @@ export default function Home() {
 
           <CommunityGallerySection id="galeria" headingId="h-galeria" />
 
+          <MediaSection id="media" headingId="h-media" />
+
           <AportSection id="aport" headingId="h-aport" />
 
           <ProtestSongSection id="piosenka" headingId="h-piosenka" />
         </article>
       </main>
 
-      <SiteFooter />
+        <SiteFooter />
+      </SiteShell>
     </div>
   );
 }
