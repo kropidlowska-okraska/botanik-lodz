@@ -113,6 +113,20 @@ export default function Home() {
               },
               {
                 title:
+                  "Komenda Główna Straży Ochrony Przyrody w Łodzi i Łódzkie Obywatelskie Forum Ekologiczne (26 stycznia 2026)",
+                body:
+                  "W związku z planami uszczuplenia Ogrodu Botanicznego na rzecz budowy szklarni „Dżungla 360” Komenda Główna Straży Ochrony Przyrody w Łodzi i Zarząd Łódzkiego Obywatelskiego Forum Ekologicznego zdecydowanie stwierdzają, że ogród powinien zachować dotychczasową postać. Zabudowa części jego powierzchni – ich zdaniem – radykalnie zmniejszy zdolności tlenotwórcze i przyniesie ubytek w roli przyrodniczej ogrodu, co niebezpiecznie łączy się z podobnymi działaniami na terenie leśnym wokół lotniska na Lublinku. Potężny kompleks szklarniowy wymagający intensywnego ogrzewania i podlewania zwiększy ślad węglowy i może negatywnie wpłynąć na stosunki wodne na Łódzkich Błoniach. Organizacje w pełni solidaryzują się ze stanowiskiem przyrodników z Uniwersytetu Łódzkiego, które zamieszczono poniżej.",
+                stanceDocuments: [
+                  {
+                    src: "/rada-wydzialu-biologii-ul-stanowisko-dzungla-360.jpg",
+                    alt: "Stanowisko Rady Wydziału Biologii i Ochrony Środowiska UŁ w sprawie projektu rozwoju Ogrodu Botanicznego w Łodzi oraz koncepcji „Dżungla 360” (załącznik do stanowiska KGSOP Łódź i ŁOFE)",
+                    width: 334,
+                    height: 1024,
+                  },
+                ],
+              },
+              {
+                title:
                   "Katedra Zarządzania Miastem i Regionem, Wydział Zarządzania Uniwersytetu Łódzkiego (kwiecień 2026)",
                 body:
                   "Katedra Zarządzania Miastem i Regionem UŁ wyraża sprzeciw wobec projektu „Dżungla 360” w Łódzkim Ogrodzie Botanicznym, wskazując na poważne zagrożenia przyrodnicze, ekonomiczne i organizacyjne związane z jego realizacją – w tym dewastację siedlisk, wątpliwą rentowność obiektu oraz ryzyko utraty przez miasto kontroli nad cennymi terenami zieleni przekazanymi spółce Holding Łódź. Katedra podkreśla, że Ogród Botaniczny wymaga inwestycji dopasowanych do jego funkcji ochronnych, naukowych i edukacyjnych, a nie komercyjnych megaobiektów, zaś ewentualna atrakcja turystyczna tego typu powinna być lokalizowana na terenach poprzemysłowych, a nie na gruntach zielonych. Autorzy stanowiska krytykują również wadliwe zarządzanie Ogrodem oraz sposób komunikacji samorządu, który zamiast otwartej debaty zastosował technikę faktów dokonanych, publikując gotowe wizualizacje inwestycji.",
@@ -227,6 +241,30 @@ export default function Home() {
                   {
                     src: "/swiatowy-ruch-katolikow-stanowisko.png",
                     alt: "List poparcia Światowego Ruchu Katolików na Rzecz Środowiska dla Zielonego Serca Botanika i protestu przeciwko budowie „Dżungli 360” (Łódź, marzec 2026)",
+                  },
+                ],
+              },
+              {
+                title:
+                  "Rada Osiedla Wzniesień Łódzkich – uchwała nr 40/15/2026 (13 stycznia 2026)",
+                body:
+                  "Rada Osiedla Wzniesień Łódzkich, działając w interesie mieszkańców, wyraża sprzeciw wobec planowanej inwestycji „Dżungla 360” w Ogrodzie Botanicznym w Łodzi. Podkreśla, że Ogród Botaniczny jest ważnym elementem systemu zieleni miasta, pełniącym funkcje ekologiczne, klimatyczne, rekreacyjne i edukacyjne. Rada deklaruje gotowość do współpracy z innymi radami osiedli i organizacjami w celu ochrony miejskiej zieleni oraz interesów mieszkańców Łodzi.",
+                stanceDocuments: [
+                  {
+                    src: "/rada-osiedla-wzniecenia-lodzkie-uchwala-40-15-2026.png",
+                    alt: "Uchwała nr 40/15/2026 Rady Osiedla Wzniesień Łódzkich w sprawie wyrażenia stanowiska wobec planowanej inwestycji „Dżungla 360” na terenie Ogrodu Botanicznego w Łodzi",
+                  },
+                ],
+              },
+              {
+                title:
+                  "Rada Osiedla Karolew-Retkinia Wschód – uchwała nr 74/14/2026 (28 kwietnia 2026)",
+                body:
+                  "Rada Osiedla Karolew-Retkinia Wschód wyraża zaniepokojenie planami komercjalizacji Ogrodu Botanicznego, w tym jego podziałem i przekazaniem terenów spółce Holding Łódź sp. z o.o. na potrzeby projektu „Dżungla 360”. Uchwała wskazuje, że ogród powinien pozostać miejscem spokoju i natury, a nie intensywnej komercji. Rada oczekuje modernizacji infrastruktury – lepszych ścieżek, oznakowania roślin, toalet, małej architektury i niewielkiej gastronomii – oraz stopniowego rozwoju finansowanego przez miasto, bez przekazywania gruntów podmiotom prywatnym i bez zaciągania kredytów.",
+                stanceDocuments: [
+                  {
+                    src: "/rada-osiedla-karolew-retkinia-wschod-uchwala-74-14-2026.png",
+                    alt: "Uchwała nr 74/14/2026 Rady Osiedla Karolew-Retkinia Wschód w sprawie wyrażenia opinii dotyczącej planowanego zagospodarowania terenu Ogrodu Botanicznego w Łodzi",
                   },
                 ],
               },

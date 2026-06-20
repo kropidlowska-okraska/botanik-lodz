@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import { useState, type ReactNode } from "react";
 
 export type StanceDocument = {
@@ -8,6 +7,10 @@ export type StanceDocument = {
   alt: string;
   /** Defaults to PNG/JPEG; `pdf` embeds the file in a frame (e.g. stance as PDF). */
   kind?: "image" | "pdf";
+  /** Native pixel width — avoids upscaling low-res document scans. */
+  width?: number;
+  /** Native pixel height — avoids upscaling low-res document scans. */
+  height?: number;
 };
 
 type StanceDocumentsToggleProps = {
@@ -69,14 +72,26 @@ export function StanceDocumentsToggle({
                 key={doc.src}
                 className="overflow-hidden rounded-lg border border-white/10 bg-black/20"
               >
-                <Image
+                {/* Original file from /public — no Next.js recompression (documents must stay sharp). */}
+                <img
                   src={doc.src}
                   alt={doc.alt}
-                  width={1200}
-                  height={1700}
-                  className="h-auto w-full"
-                  sizes="(max-width: 768px) 100vw, 72rem"
+                  width={doc.width}
+                  height={doc.height}
+                  className="mx-auto block h-auto w-auto max-w-full"
+                  loading="lazy"
+                  decoding="async"
                 />
+                <figcaption className="border-t border-white/10 bg-bg-card/95 px-3 py-2 text-center text-sm">
+                  <a
+                    href={doc.src}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-medium text-accent-neon underline-offset-2 hover:underline"
+                  >
+                    Otwórz w pełnym rozmiarze w nowej karcie
+                  </a>
+                </figcaption>
               </figure>
             );
           })}
