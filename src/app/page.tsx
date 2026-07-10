@@ -281,6 +281,20 @@ export default function Home() {
                   },
                 ],
               },
+              {
+                title:
+                  "Miejska Rada Seniorów w Łodzi – uchwała nr 39/IV/2026 (27 kwietnia 2026)",
+                body:
+                  "Miejska Rada Seniorów w Łodzi podjęła uchwałę o udzieleniu wsparcia protestowi Młodzieżowej Rady Miejskiej oraz Młodzieżowego Sejmiku Województwa Łódzkiego wobec planowanej inwestycji ingerującej w Ogród Botaniczny w Łodzi poprzez realizację projektu „Dżungla 360”. To wyraz międzypokoleniowej solidarności - starsi i młodsi mieszkańcy Łodzi wspólnie sprzeciwiają się komercjalizacji i zabudowie Ogrodu.",
+                stanceDocuments: [
+                  {
+                    src: "/miejska-rada-seniorow-uchwala-39-iv-2026.png",
+                    alt: "Uchwała nr 39/IV/2026 Miejskiej Rady Seniorów w Łodzi w sprawie udzielenia wsparcia protestowi Młodzieżowej Rady Miejskiej i Młodzieżowego Sejmiku Województwa Łódzkiego wobec projektu „Dżungla 360” w Ogrodzie Botanicznym w Łodzi",
+                    width: 726,
+                    height: 792,
+                  },
+                ],
+              },
             ]}
           />
 
